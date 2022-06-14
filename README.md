@@ -8,11 +8,26 @@ _in process_
 ### Server
 
 - Tools
-  - Django
-  - Firestore
+  - Mongo
+  - Node.js
 
 - Models
-  _in process_
+  - Activities
+     - id - int
+     - date - int
+     - photos - photo[]
+     - videos - video[]
+     - description - text
+  - Comments
+     - id - int
+     - date - int
+     - name - text
+     - message - text
+     - visible - boolean
+  - Team
+     - id - int
+     - name - text
+     - role - text
 
 ### React-Ui
 
